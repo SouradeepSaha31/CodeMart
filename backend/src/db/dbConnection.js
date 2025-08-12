@@ -9,6 +9,7 @@ async function databaseConnection(){
         console.log("Error in dbConnection:" ,error);
         process.exit(1);
     }
+
 }
 
 export default databaseConnection
