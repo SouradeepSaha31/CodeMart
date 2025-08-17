@@ -19,7 +19,7 @@ const router = createBrowserRouter(
       <Route path="/login" element={<Login />}/>
       <Route path='/' element = {<App/>}>
         <Route path = "/buyersprofile" element = {<IsLoggedIn Page = {BuyersProfile}/>}/>
-        <Route path="sellersprofile" element =  {<IsLoggedIn Page = {SellersProfile}/>}/>
+        <Route path = "/sellersprofile" element =  {<IsLoggedIn Page = {SellersProfile}/>}/>
       </Route>
     </>
   )

@@ -249,7 +249,7 @@ function SellersProfile() {
                     <img
                       src={`./public/${userdet.coverPicture}`}
                       className="w-[97%] h-[94%] rounded-[10px]"
-                      alt=""
+                      alt="h"
                     />
                     <div
                       onClick={() => setPhotoToggle2(!photoToggle2)}
@@ -304,7 +304,7 @@ function SellersProfile() {
                 <div className="h-full w-[80%] flex justify-start items-center gap-3">
                   <AiOutlineProduct className="text-[#ffffff6d] text-[20px] group-hover:text-[#fff]  transition-all duration-300" />
                   <h2 className="text-[15px] font-semibold text-[#ffffff6d] group-hover:text-[#fff]  transition-all duration-300">
-                    Create Product
+                    Create Product  
                   </h2>
                 </div>
 
